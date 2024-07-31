@@ -1,4 +1,4 @@
-import { io } from "socket.io-client";
+
 
 //io() connects to the socket io server
 console.log(io);
