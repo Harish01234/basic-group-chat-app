@@ -1,5 +1,5 @@
 //io() connects to the socket io server
-const socket=io('http://localhost:4000',{
+const socket=io('https://express-ws-server.vercel.app/',{
     auth: {
         token: "abcd"
       },
