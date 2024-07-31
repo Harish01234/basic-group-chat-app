@@ -1,5 +1,7 @@
-//io() connects to the socket io server
+import { io } from "socket.io-client";
 
+//io() connects to the socket io server
+console.log(io);
 
 const socket=io('https://express-ws-server.vercel.app/',{
     auth: {
